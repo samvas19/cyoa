@@ -16,26 +16,94 @@ html{
 	align-self: center;
 }
 
+.image{
+	width: 60vw;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.game_image{
+	width: 60vw;
+	height: 45vw;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
 h1{
 	font-size: 2vw;
+}
+
+p {
+	font-size: 1.5vw;
 }
 
 .title{
 	width: 100%;
 	text-align: center;
-	color: white;
-	margin-top: 3vw;
+	color: black;
+	margin-top: 0vw;
 }
 
 .button{
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	margin-top: -30vw;
+	margin-bottom: 20vw;
 }
+
 .clickable_button{
-	width: 10vw;
+	width: 20vw;
     height: 5vw;
     font-size: 2vw;
+    margin-bottom: 3vw;
+    border-radius: 1vw;
+}
+
+/*.next-button{
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	margin-top: -9vw;
+	margin-bottom: -9vw;
+	margin-left: 25vw;
+	
+}
+
+.circular-button{
+	height: 8vw;
+	width: 8vw;
+	border-radius: 50%;
+	background-color: rgb(100,100,100);
+}*/
+
+
+
+
+.next-button{
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	margin-top:1vw;
+	margin-bottom: ;
+	margin-left: 25vw;
+	
+}
+
+
+.circular-button{
+	height: 8vw;
+	width: 8vw;
+	border-radius: 50%;
+	background-color: rgb(100,100,100);
+}
+
+#next-pp{
+	margin-top: -7.5vw;
 }
 
 .game_wrapper_question{
@@ -45,20 +113,16 @@ h1{
 	left: 0;
 	right: 0;
 	overflow: hidden;
-
 	display: flex;
 }
 
-.half_size_div{
-	width: 50%;
-	height: 100%;
-	margin: 0;
-}
-
-.left_div{
-	background-size: cover;
-	background-position: center;
-	margin: 0;
-	width: 100%;
-	height: 100%;
+.textbox{
+	justify-content: center;	
+	background-color: rgb(240,240,240);
+	height: 10vw;
+	width: 60vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4vw;
+	margin-bottom: 0vw;
 }
