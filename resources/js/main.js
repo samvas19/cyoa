@@ -62,3 +62,43 @@ $(document).on('click', '#lake', function(){
 	}
 
 });
+
+$(document).on('click', '#home', function(){
+
+	var currentDirection = localStorage.getItem('direction');
+
+	if ( currentDirection === 'choice1' ) {
+		window.location.href = "././home-nighttime.html";
+		
+	} 
+
+	else if ( currentDirection === 'choice2' ) {
+		window.location.href = "././home-bad.html";
+	}
+
+	else if ( currentDirection === 'choice3' ) {
+		window.location.href = "././home-nighttime.html";
+	}
+
+});
+
+$(document).on('click', '#stars', function(){
+
+	var currentDirection = localStorage.getItem('direction');
+
+	if ( currentDirection === 'choice1' ) {
+		window.location.href = "././watch-stars-photo.html";
+		
+	} 
+
+	else if ( currentDirection === 'choice2' ) {
+		window.location.href = "././watch-stars-photo.html";
+	}
+
+	else if ( currentDirection === 'choice3' ) {
+		window.location.href = "././watch-stars.html";
+	}
+
+});
+
+
