@@ -99,7 +99,8 @@ p {
 	height: 8vw;
 	width: 8vw;
 	border-radius: 50%;
-	background-color: rgb(100,100,100);
+	align-items: center;
+
 }
 
 #next-pp{
