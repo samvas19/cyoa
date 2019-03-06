@@ -1,3 +1,6 @@
+
+
+
 $(document).on('click', '#choice1', function(){
 
 	localStorage.setItem('direction', 'choice1');
@@ -100,5 +103,6 @@ $(document).on('click', '#stars', function(){
 	}
 
 });
+
 
 
